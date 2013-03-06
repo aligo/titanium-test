@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="mainWindow" title="UI Test">
+		<View class="header">
+			<View class="headerTop" />
+            <Label class="headerTitle">UI Test</Label>
+        </View>
+        <View class="headerDivider" />
+	</Window>
+</Alloy>
