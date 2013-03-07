@@ -4,3 +4,6 @@ build.log
 build
 npm-debug.log
 tmp
+
+.fastdev.lock
+*.pyc

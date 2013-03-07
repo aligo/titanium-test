@@ -14,7 +14,7 @@
 		endPoint: { x: "0%", y:"100%"},
 		colors: [
 			{ color: "#999", offset: 0.0 },
-			{ color: "#999", offset: 0.008 },
+			{ color: "#999", offset: 0.02 },
 			{ color: "#666", offset: 0.02 },
 			{ color: "#444", offset: 1.0 }
 		]
@@ -22,7 +22,7 @@
 },
 ".headerDivider": {
 	top: "50dp",
-	height: "5dp",
+	height: "3dp",
 	width: Ti.UI.FILL,
 	backgroundGradient: {
 		type: "linear",
@@ -30,19 +30,22 @@
 		endPoint: { x: "0%", y:"100%"},
 		colors: [
 			{ color: "#707070", offset: 0.0 },
-			{ color: "#707070", offset: 0.10 },
-			{ color: "#333", offset: 0.15 },
-			{ color: "#333", offset: 0.25 },
-			{ color: "#202020", offset: 0.3 },
-			{ color: "#2c2c2c", offset: 0.6 },
-			{ color: "#fff", offset: 0.65 },
+			{ color: "#707070", offset: 0.2 },
+			{ color: "#404040", offset: 0.2 },
+			{ color: "#444", offset: 0.4 },
+			{ color: "#303030", offset: 0.4 },
+			{ color: "#3c3c3c", offset: 0.8 },
+			{ color: "#fff", offset: 0.8 },
 			{ color: "#fff", offset: 1.0 }
 		]
 	}
 },
 ".headerTitle": {
-	left: "10dp",
 	color: "#fff",
+	shadowColor: '#222',
+  	shadowOffset: {x:-0.5, y:-0.5},
+  	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  	width: Ti.UI.FILL,
 	font: {
 		fontSize: '24dp',
 		fontWeight: 'bold'

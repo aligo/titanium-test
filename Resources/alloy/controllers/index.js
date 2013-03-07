@@ -30,7 +30,7 @@ function Controller() {
                 offset: 0
             }, {
                 color: "#999",
-                offset: 0.008
+                offset: 0.02
             }, {
                 color: "#666",
                 offset: 0.02
@@ -47,8 +47,14 @@ function Controller() {
     });
     $.__views.__alloyId0.add($.__views.__alloyId1);
     $.__views.__alloyId2 = Ti.UI.createLabel({
-        left: "10dp",
         color: "#fff",
+        shadowColor: "#222",
+        shadowOffset: {
+            x: -0.5,
+            y: -0.5
+        },
+        textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+        width: Ti.UI.FILL,
         font: {
             fontSize: "24dp",
             fontWeight: "bold"
@@ -59,7 +65,7 @@ function Controller() {
     $.__views.__alloyId0.add($.__views.__alloyId2);
     $.__views.__alloyId3 = Ti.UI.createView({
         top: "50dp",
-        height: "5dp",
+        height: "3dp",
         width: Ti.UI.FILL,
         backgroundGradient: {
             type: "linear",
@@ -76,22 +82,22 @@ function Controller() {
                 offset: 0
             }, {
                 color: "#707070",
-                offset: 0.1
+                offset: 0.2
             }, {
-                color: "#333",
-                offset: 0.15
+                color: "#404040",
+                offset: 0.2
             }, {
-                color: "#333",
-                offset: 0.25
+                color: "#444",
+                offset: 0.4
             }, {
-                color: "#202020",
-                offset: 0.3
+                color: "#303030",
+                offset: 0.4
             }, {
-                color: "#2c2c2c",
-                offset: 0.6
+                color: "#3c3c3c",
+                offset: 0.8
             }, {
                 color: "#fff",
-                offset: 0.65
+                offset: 0.8
             }, {
                 color: "#fff",
                 offset: 1
